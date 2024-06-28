@@ -22,5 +22,7 @@ int main(){
         printf("Round %d:%s\n",i,t);
     }
     printf("Heads: %d, Tails:%d\n",count2,count1);
+    if(count2>count1)printf("You won\n");
+    else printf("You lost\n");
     return 0;
 }
