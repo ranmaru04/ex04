@@ -5,7 +5,12 @@ int main(){
     int i;
     int count1=0,count2=0;
     double num;
+    char* name;
     srand(time(NULL));
+    printf("Who are you?\n");
+    printf(">");
+    scanf("%s",name);
+    printf("Hello, %s!\n",name);
     printf("Tossing a coin\n");
     for(i=1;i<4;i++){
         //char t[6];
